@@ -9,19 +9,62 @@
  
     <script>
     
+    let dayImage;
+    let nightImage;
+    let imageX = 20;
+    let imageY = 20;
+    let change = true;
+    let jazzPiano;
+        
+    function preload(){
+        dayImage = loadImage ('https://nanamikanda.github.io/Interaction light/day.gif', 'myimage');
+        nightImage = createImg ('https://nanamikanda.github.io/Interaction light/night.gif','myimage');
+        jazzPiano = createAudio('https://nanamikanda.github.io/Interaction light/bensound-thejazzpiano.mp3');
+    }
+        
     function setup(){
-        createCanvas(800,800);
-        background(220);
+        createCanvas(1600,1600);
+        jazzPiano.autoplay(true);
+        nightImage.hide();
         
     
     }
     
     function draw(){
-        fill('black');
-        square(100,100,30);
-    }    
-    
+        image(dayImage,imageX,imageY);
+        nightImage.position(28,28);
+        
+     
+      
+         
+        }
+            
+    function mousePressed()
+    { if(mouseX > 28 && mouseX < 790 && mouseY > 28 && mouseY < 790)
+        {
+    if (change === true)
+        {change = false;
+         nightImage.show();
+            
+        }
+    else{change = true;
+         nightImage.hide();
+        }
+    }
+    }
+        
     </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -30,7 +73,9 @@
     </head>
     
     <body>
-      Hello  
+    
+    
+      
     </body>
     
     <footer>
