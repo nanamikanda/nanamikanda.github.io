@@ -1,0 +1,49 @@
+body
+{background-color: #1f1f1f;
+height: 1080px;
+    background-image: url("nodo_image.jpg");
+    background-repeat: no-repeat;
+    background-position:0px 450px;
+    background-attachment: fixed;
+    
+}
+
+h1
+{font-family: 'Noto Serif JP', serif;
+font-weight: bold;
+font-size: 14pt;
+color: white;
+padding-top: 100px;
+padding-left: 20px;}
+
+p
+{font-family: 'Noto Serif JP', serif;
+    font-size: 14pt;
+    font-weight: 400; 
+    color: white;
+padding-left: 20px;
+    
+    
+}
+
+a
+{font-family: 'Noto Serif JP', serif;
+    font-size: 14pt;
+    font-weight: 400;
+    line-height: 30pt;    
+    color: white;
+    
+}
+
+
+.design
+{ padding-top: 30px;} 
+
+
+.fix
+{position: fixed;
+top: 300px;
+left: 0;}
+
+.left
+{padding-left: 20px;}
