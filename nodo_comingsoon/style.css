@@ -3,7 +3,7 @@ body
 height: 1080px;
     background-image: url("nodo_image_1940x1080.jpg");
     background-repeat: no-repeat;
-    background-position:0px 0px;
+    background-position:0px -100px;
     background-attachment: fixed;
     
 }
@@ -14,7 +14,7 @@ font-weight: bold;
 font-size: 14pt;
 color: white;
 padding-top: 100px;
-padding-left: 20px;
+padding-left: 40px;
 padding-bottom: 10px;
 margin:0;}
 
@@ -23,7 +23,7 @@ p
     font-size: 14pt;
     font-weight: 400; 
     color: white;
-padding-left: 20px;
+padding-left: 40px;
     
     
 }
